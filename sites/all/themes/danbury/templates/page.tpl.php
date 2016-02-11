@@ -1,8 +1,8 @@
 <div class="page-wrapper"><div><div>
 
-    <div class="navigation"><div><div>
+    <div class="navigation"><div class="wrapper"><div>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="navigation-logo">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+          <img src="<?php print base_path().path_to_theme(); ?>/img/danbury.svg" alt="<?php print t('Home'); ?>" />
         </a>
         <?php print render($page['navigation']); ?>
     </div></div></div>
@@ -25,7 +25,7 @@
 
     <div class="footer"><div><div>
       <?php print render($page['footer']); ?>
-      <div class="copyright">&copy; EXAMPLE <?php print date('Y'); ?></div>
+      <div class="copyright">&copy; DANBURY <?php print date('Y'); ?></div>
       <div class="site-by-cci">Site by <a href="https://ccistudios.com" target="_blank">CCI Studios</a></div>
     </div></div></div>
 
