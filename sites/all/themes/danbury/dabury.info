@@ -1,0 +1,13 @@
+name = Danbury
+description = Danbury custom theme
+core = 7.x
+
+;scripts[] = js/menu.js
+
+stylesheets[all][] = css/importer.css
+
+regions[navigation] = Navigation
+regions[header] = Header
+regions[help] = Help
+regions[content] = Content
+regions[footer] = Footer
