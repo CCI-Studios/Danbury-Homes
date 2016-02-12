@@ -11,6 +11,10 @@ function danbury_css_alter(&$css)
     unset($css[drupal_get_path('module','ctools').'/css/ctools.css']);
     unset($css[drupal_get_path('module','views').'/css/views.css']);
 }
+function danbury_js_alter(&$js)
+{
+    unset($js[drupal_get_path('module','webform').'/js/webform.js']);
+}
 
 function danbury_menu_link(array $variables) {
     $element = $variables['element'];

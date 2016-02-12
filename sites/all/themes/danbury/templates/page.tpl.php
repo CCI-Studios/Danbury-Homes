@@ -23,10 +23,12 @@
         <?php print render($page['content']); ?>
     </div></div></div>
 
-    <div class="footer"><div><div>
-      <?php print render($page['footer']); ?>
-      <div class="copyright">&copy; DANBURY <?php print date('Y'); ?></div>
-      <div class="site-by-cci">Site by <a href="https://ccistudios.com" target="_blank">CCI Studios</a></div>
+    <div class="footer"><div class="wrapper"><div>
+        <?php print render($page['footer']); ?>
+        <div class="footer-bottom">
+            <div class="copyright">&copy; DANBURY <?php print date('Y'); ?>.</div>
+            <div class="site-by-cci">Site by <a href="https://ccistudios.com" target="_blank">CCI Studios</a></div>
+        </div>
     </div></div></div>
 
 </div></div></div>
