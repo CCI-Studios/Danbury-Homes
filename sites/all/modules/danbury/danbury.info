@@ -1,10 +1,12 @@
 name = Danbury
 core = 7.x
 package = Features
+dependencies[] = ckeditor
 dependencies[] = features
 dependencies[] = image
 dependencies[] = text
 dependencies[] = views
+features[ckeditor_profile][] = Full
 features[ctools][] = views:views_default:3.0
 features[features_api][] = api:2
 features[field_base][] = body
