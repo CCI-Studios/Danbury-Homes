@@ -2,7 +2,7 @@ name = Danbury
 description = Danbury custom theme
 core = 7.x
 
-;scripts[] = js/menu.js
+scripts[] = js/feature-images.js
 
 stylesheets[all][] = css/importer.css
 
