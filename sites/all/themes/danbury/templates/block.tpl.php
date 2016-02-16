@@ -1,4 +1,4 @@
-<div class="<?php print $classes; ?> <?php print $block_html_id; ?>">
+<div class="<?php print $classes; ?> <?php print $block_html_id; ?>"><div>
 
   <?php print render($title_prefix); ?>
 <?php if ($block->subject): ?>
@@ -9,4 +9,4 @@
   <div class="block-content"<?php print $content_attributes; ?>>
     <?php print $content ?>
   </div>
-</div>
+</div></div>

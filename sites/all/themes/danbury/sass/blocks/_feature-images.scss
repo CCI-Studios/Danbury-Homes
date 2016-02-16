@@ -5,32 +5,67 @@
     position: relative;
     margin: 0 auto;
 }
-.view-feature-images.full .view-content
+.view-feature-images.full
 {
-    padding-bottom: 54.1%;
-}
-.view-feature-images.full .views-row
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-.view-feature-images.full .shown
-{
-    z-index: 1;
-}
-.view-feature-images.full .hiding
-{
-    z-index: 2;
-}
-.view-feature-images.full img
-{
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
+    .view-content
+    {
+        padding-bottom: 54.1%;
+    }
+    .views-row
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .shown
+    {
+        z-index: 1;
+    }
+    .hiding
+    {
+        z-index: 2;
+    }
+    img
+    {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .feature-image-button
+    {
+        position: absolute;
+        top: 50%;
+        width: 75px;
+        height: 80px;
+        margin-top: -40px;
+        background-color: $blue-dark;
+        background-repeat: no-repeat;
+        z-index: 10;
+        font-size: 0;
+    }
+    .feature-image-button:hover
+    {
+        background-color: $blue-light;
+    }
+    .prev-button
+    {
+        background-image: url(../img/arrow-left.svg);
+        background-position: 33px center;
+        left: 0;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .next-button
+    {
+        background-image: url(../img/arrow-right.svg);
+        background-position: 23px center;
+        right: 0;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
 }
 
 .view-feature-images.thumb
@@ -38,18 +73,22 @@
     font-size: 0;
     text-align: center;
     margin-top: -75px;
+    margin-bottom: 60px;
     position: relative;
     z-index: 10;
 }
-.view-feature-images.thumb .views-row
+.view-feature-images.thumb
 {
-    display: inline-block;
-    margin: 0 3px;
-}
-.view-feature-images.thumb img
-{
-    cursor: pointer;
-    display: block;
-    border-radius: 4px;
-    box-shadow: 0 -2px 4px 1px rgba(0,0,0,0.25);
+    .views-row
+    {
+        display: inline-block;
+        margin: 0 3px;
+    }
+    img
+    {
+        cursor: pointer;
+        display: block;
+        border-radius: 4px;
+        box-shadow: 0 -2px 4px 1px rgba(0,0,0,0.25);
+    }
 }

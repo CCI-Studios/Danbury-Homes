@@ -1,0 +1,95 @@
+.read-more-block
+{
+    width: 49.5%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.read-more-block > div
+{
+    max-width: 600px;
+    position: relative;
+}
+.read-more-block > div:before
+{
+    content: "";
+    display: block;
+    float: left;
+    width: 50%;
+    padding-bottom: 62.12%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+    margin-right: 20px;
+    margin-bottom: -40px;
+}
+.read-more-block .block-content
+{
+    font-size: 0.9em;
+    padding-bottom: 50px;
+}
+.read-more-block h2
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 4%;
+    padding-bottom: 10px;
+}
+.read-more-block a
+{
+    color: white;
+}
+.read-more-block .read-more
+{
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 46%;
+    border-radius: 5px;
+}
+
+.block-design
+{
+    float: left;
+    background-color: $blue-dark;
+}
+.block-design > div
+{
+    float: right;
+}
+.block-design > div:before
+{
+    background-image: url(../img/block-design.jpg);
+}
+.block-design .read-more
+{
+    background-color: $blue-light;;
+}
+
+.block-build-quality
+{
+    float: right;
+    background-color: $blue-light;
+}
+.block-build-quality > div
+{
+    float: left;
+}
+.block-build-quality > div:before
+{
+    background-image: url(../img/block-build-quality.jpg);
+}
+.block-build-quality .read-more
+{
+    background-color: $blue-dark;;
+}
