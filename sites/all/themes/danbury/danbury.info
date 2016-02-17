@@ -10,4 +10,5 @@ regions[navigation] = Navigation
 regions[header] = Header
 regions[help] = Help
 regions[content] = Content
+regions[blocks] = Blocks
 regions[footer] = Footer

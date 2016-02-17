@@ -11,7 +11,7 @@
       <?php print render($page['header']); ?>
     </div></div></div>
 
-    <div class="main-wrapper"><div><div>
+    <div class="main-wrapper"><div class="wrapper"><div>
         <a id="main-content"></a>
         <?php print render($title_prefix); ?>
         <?php if ($title): ?><div class="page-title"><h1><?php print $title; ?></h1></div><?php endif; ?>
@@ -21,6 +21,10 @@
         <?php print render($page['help']); ?>
         <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
         <?php print render($page['content']); ?>
+    </div></div></div>
+
+    <div class="blocks"><div><div>
+        <?php print render($page['blocks']); ?>
     </div></div></div>
 
     <div class="footer"><div class="wrapper"><div>
