@@ -4,7 +4,20 @@ core = 7.x
 
 scripts[] = js/feature-images.js
 
+
 stylesheets[all][] = css/importer.css
+
+;unset system/module css files
+stylesheets[all][] = system.menus.css
+stylesheets[all][] = system.theme.css
+stylesheets[all][] = node.css
+stylesheets[all][] = field.css
+stylesheets[all][] = user.css
+stylesheets[all][] = ckeditor.css
+stylesheets[all][] = ctools.css
+stylesheets[all][] = views.css
+stylesheets[all][] = webform.css
+
 
 regions[navigation] = Navigation
 regions[header] = Header

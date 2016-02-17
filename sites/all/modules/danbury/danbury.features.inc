@@ -55,6 +55,25 @@ function danbury_image_default_styles() {
     ),
   );
 
+  // Exported image style: testimonial_photo.
+  $styles['testimonial_photo'] = array(
+    'label' => 'Testimonial Photo',
+    'effects' => array(
+      3 => array(
+        'name' => 'focal_point_scale_and_crop',
+        'data' => array(
+          'width' => 134,
+          'height' => 134,
+          'focal_point_advanced' => array(
+            'shift_x' => '',
+            'shift_y' => '',
+          ),
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   return $styles;
 }
 
@@ -77,6 +96,14 @@ function danbury_node_info() {
       'description' => t('Use <em>basic pages</em> for your static content, such as an \'About us\' page.'),
       'has_title' => '1',
       'title_label' => t('Title'),
+      'help' => '',
+    ),
+    'testimonial' => array(
+      'name' => t('Testimonial'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Name'),
       'help' => '',
     ),
     'webform' => array(
