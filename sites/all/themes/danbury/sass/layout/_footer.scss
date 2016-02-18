@@ -5,20 +5,27 @@
     color: white;
     padding-top: 60px;
 }
-.footer a
+.footer
 {
-    color: white;
-    text-decoration: none;
-    
-    &:hover
+    a
     {
-        text-decoration: underline;
+        color: white;
+        text-decoration: none;
+        
+        &:hover
+        {
+            text-decoration: underline;
+        }
     }
-}
-.footer h2
-{
-    text-transform: uppercase;
-    font-weight: 600;
+    h2
+    {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    ul
+    {
+        margin-left: 0;
+    }
 }
 
 .region-footer
@@ -30,7 +37,9 @@
 {
     float: left;
     margin-right: 60px;
-    
+}
+.block-menu-menu-footer-social
+{
     ul
     {
         list-style: none;
@@ -116,7 +125,9 @@
     float: left;
     margin-right: 100px;
     width: 170px;
-    
+}
+.block-menu-menu-footer-menu
+{
     h2
     {
         margin-bottom: 20px;
@@ -151,7 +162,9 @@
     float: left;
     width: 350px;
     margin-bottom: 26px;
-    
+}
+.stay-in-touch
+{
     h2
     {
         margin-bottom: 20px;
@@ -228,7 +241,9 @@
 .footer-contact
 {
     float: left;
-    
+}
+.footer-contact
+{
     a
     {
         display: block;
@@ -236,6 +251,10 @@
         font-size: 0.9em;
         font-weight: 600;
         background: no-repeat left center;
+    }
+    p
+    {
+        margin-bottom: 0;
     }
     .contact--phone
     {

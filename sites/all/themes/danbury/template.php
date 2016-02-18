@@ -12,3 +12,13 @@ function danbury_menu_link(array $variables) {
     $output = l($linktext, $element['#href'], $element['#localized_options']);
     return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
 }
+
+function danbury_preprocess_html(&$variables)
+{
+    $path = drupal_get_path_alias($_GET['q']);
+    $aliases = explode('/', $path);
+    foreach($aliases as $alias)
+    {
+        $variables['classes_array'][] = 'path-'.drupal_clean_css_identifier($alias);
+    }
+}
