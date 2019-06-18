@@ -4,9 +4,11 @@ package = Jammer
 core = 7.x
 files[] = jammer_messages.install
 files[] = jammer_messages.module
-; Information added by Drupal.org packaging script on 2015-01-06
-version = "7.x-1.4"
+configure = admin/config/user-interface/jammer_messages
+
+; Information added by Drupal.org packaging script on 2017-08-23
+version = "7.x-1.5"
 core = "7.x"
 project = "jammer"
-datestamp = "1420571334"
+datestamp = "1503482647"
 

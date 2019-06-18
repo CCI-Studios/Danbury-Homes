@@ -159,9 +159,9 @@ function jammer_form_alter(&$form, &$form_state, $form_id) {
       }
       // We can only safely remove the 'teaser_js' textarea for a separate teaser, and the 'teaser_include' checkbox,
       // IF the teaser is not in fact already different. Else we risk zapping the default value.
-      if (in_array($form['type']['#value'], variable_get('jammer_teaser_controls_unset_node_types', array())) && isset($form['body']['und'][0]['summary'])
-          && empty($form['body']['und'][0]['summary']['#default_value']) && !user_access('view teaser controls')) {
-        $form['body']['und'][0]['summary']['#access'] = FALSE;
+      if (in_array($form['type']['#value'], variable_get('jammer_teaser_controls_unset_node_types', array())) && isset($form['body'][LANGUAGE_NONE][0]['summary'])
+          && empty($form['body'][LANGUAGE_NONE][0]['summary']['#default_value']) && !user_access('view teaser controls')) {
+        $form['body'][LANGUAGE_NONE][0]['summary']['#access'] = FALSE;
       }
     }
   }

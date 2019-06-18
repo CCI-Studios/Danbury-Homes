@@ -164,7 +164,7 @@ function jammer_generic_form_alter(&$form, &$form_state, $form_id) {
  * Helper function, recursive.
  */
 function _jammer_generic_remove_element($value_array, $key, $element_id) {
-  if ($key == $element_id) {
+  if ($key === $element_id) {
     $value_array['#access'] = FALSE;
   }
   foreach (element_children($value_array) as $value_key) {
