@@ -1,7 +1,6 @@
 .view-feature-images.full
 {
     width: 100%;
-    max-width: 1220px;
     position: relative;
     margin: 0 auto;
 }
@@ -9,7 +8,19 @@
 {
     .view-content
     {
-        padding-bottom: 54.1%;
+        padding-bottom: 46.1%;
+    }
+    .views-field-field-feature-image,
+    .field-content
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .backbg
+    {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
     }
     .views-row
     {

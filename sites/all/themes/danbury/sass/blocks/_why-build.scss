@@ -1,0 +1,45 @@
+.block-block-16
+{
+	padding: 2em 10px;
+	text-align: center;
+	background: $blue-dark;
+	clear: left;
+
+	h2
+	{
+		text-transform: uppercase;
+		color: white;
+	    font-weight: 600;
+	    font-size: 3em;
+	    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+	}
+
+	.block-content{
+
+		div{
+
+			font-size: 1.3em;
+			background: white;
+			border: 2px solid $blue-light;
+			border-radius: 5px;
+			padding: 10px 20px 0px;
+		    margin: 20px 15px;
+   			display: inline-block;
+   			vertical-align: top;
+   			width: 370px;
+
+   			&:first-child{
+
+   				p:first-child + p{
+
+   					padding-top: 8px;
+   				}
+   			}
+
+   			p:first-child + p{
+
+   				margin-bottom: 0px;
+   			}
+		}
+	}
+}

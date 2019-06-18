@@ -3,7 +3,9 @@ description = Danbury custom theme
 core = 7.x
 
 scripts[] = js/feature-images.js
-
+scripts[] = js/popup.js
+scripts[] = js/mobile-menu.js
+scripts[] = js/background-size.js
 
 stylesheets[all][] = css/importer.css
 

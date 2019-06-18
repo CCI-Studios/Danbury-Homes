@@ -1,12 +1,19 @@
 .block-lead-capture
 {
     clear: both;
-    padding: 60px 0;
-    background: #0072bc url(../img/block-lead-capture.jpg) no-repeat center center;
+    padding: 60px 0 100px;
+    background: #0072bc url(../img/block-lead-capture1.jpg) no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
 }
+
+body.page-node-1,
+body.page-node-18
+{
+    height: 100%;
+}
+
 .block-lead-capture
 {
     .node > h2
@@ -35,18 +42,37 @@
 
     form
     {
-        margin: 30px auto 0 auto;
+        margin: 0px auto 0 auto;
         max-width: 940px;
         font-size: 0;
     }
+
+     ._form-thank-you
+    {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .white-logo
+    {
+        display: none;
+    }
+
     .form-item,
-    .form-actions
+    .form-actions,
+    .form-submit,
+    ._form_element,
+    ._button-wrapper
     {
         display: inline-block;
         width: 31%;
         margin: 0 1.1666%;
+        -webkit-appearance: none;
+        vertical-align: top;
     }
-    input
+
+    input,
+    button
     {
         width: 100%;
         display: block;
@@ -58,6 +84,8 @@
         background: white;
         font-size: 20px;
     }
+
+    ._button-wrapper button,
     .form-submit
     {
         color: white;
@@ -71,5 +99,184 @@
     {
         position: absolute;
         left: -99999px;
+    }
+    .messages
+    {
+        font-size: 16px;
+
+        h2
+        {
+            width: auto;
+        }
+    }
+
+    .messages.status
+    {
+        background: transparent;
+        border: 0;
+        color: white;
+        padding: 20px 0px;
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+
+        h2
+        {
+            display: none;
+        }
+    }
+
+    .desc
+    {
+        font-size: 16px;
+        width: 70%;
+        margin: 0px auto 40px;
+    }
+}
+
+.block-lead-capture.lead-capture-page
+{
+    ._form_element,
+    ._button-wrapper
+    {
+        display: block;
+    }
+}
+
+.page-node{
+
+    #node-7
+    {
+        .white-logo
+        {
+            display: none;
+        }
+    }
+}
+
+.page-node-1,
+.page-node-18
+{
+    .main-wrapper
+    {
+        display: none;
+    }
+
+    .header
+    {
+        float: left;
+        width: 65%;
+        background:url(../img/lead-capture-bg1.jpg) no-repeat;
+        background-size: cover;
+        height: 803px;
+
+        img
+        {
+            display: none;
+        }
+   }
+
+    .blocks
+    {
+        float: right;
+        width: 35%;
+    }
+
+    .block-lead-capture
+    {
+        height: 803px;
+        background: #0072bc url(../img/lead-capture-form-bg1.jpg) no-repeat center center;
+
+        .form-item,
+        .form-submit,
+        ._form_element,
+        ._button-wrapper
+        {
+            display: block;
+            width: 70%;
+            margin: 10px auto;
+        }
+
+         ._form_element .form-item,
+         ._button-wrapper button
+         {
+            width: 100%;
+         }
+
+        h3
+        {
+            padding: 1em;
+            font-size: 1.5em
+        }
+
+
+        .white-logo
+        {
+            margin-top: 15%;
+            display: block;
+        }
+
+        .field-name-body
+        {
+          width: 72%;
+          margin: 25px auto 70px;
+
+           h3
+           {
+             font-size: 1.2em;
+           }
+        }
+
+        h2
+        {   
+            width: 72%;
+            margin: 0 auto;
+            line-height: 1em;
+        }
+
+        .messages.status
+        {
+            position: relative;
+            bottom: auto;
+            left: auto;
+        }
+    }
+
+    .block-bg-header:after
+    {
+        display: none;
+    }
+
+    .popup
+    {
+        display: none;
+    }
+
+    .overlay
+    {
+        position:fixed;
+        z-index:99999999;
+        background:white;
+        padding:30px;
+        text-align:center;
+        top:65%;
+        left: 50%;
+        top: 16% \9;
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
+
+.open-houses
+{
+    .block-content
+    {
+        padding-top: 40%;
+    }
+
+    ._form-thank-you
+    {
+        font-size: 16px;
     }
 }

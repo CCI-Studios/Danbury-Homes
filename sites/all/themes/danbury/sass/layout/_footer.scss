@@ -161,7 +161,6 @@
 {
     float: left;
     width: 350px;
-    margin-bottom: 26px;
 }
 .stay-in-touch
 {
@@ -175,7 +174,8 @@
         position: absolute;
         left: -999999px;
     }
-    input[type=email]
+    input[type=email],
+    input[type=text]
     {
         display: block;
         width: 270px;
@@ -190,7 +190,8 @@
         float: left;
         margin-right: 10px;
     }
-    input[type=submit]
+    input[type=submit],
+    button
     {
         float: left;
         display: block;

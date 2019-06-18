@@ -14,11 +14,11 @@ $aliases['dev'] = array(
 
 $aliases['live'] = array(
 	'uri'=> 'builtbydanbury.com',
-	'root' => '/home/builtbydan/subdomains/live/public_html',
+	'root' => '/home/builtbydan/public_html',
 	'remote-host'=> 'host.pokertrainingguide.com',
 	'remote-user'=> 'builtbydan',
 	'path-aliases'=> array(
 		'%files'=> 'sites/default/files',
-		'%drush'=> '/home/builtbydan/.composer/vendor/bin/'
+		'%drush-script'=> '/home/builtbydan/.composer/vendor/bin/drush'
 	),
 );

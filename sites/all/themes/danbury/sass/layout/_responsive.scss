@@ -1,0 +1,308 @@
+@media only screen and (max-width:1220px) 
+{
+
+	.page-node-1
+	{	
+
+		body,
+		html,
+		.page-wrapper,
+		.page-wrapper > div
+		{
+			height: 100%;
+		}
+
+		.block-lead-capture .white-logo
+		{
+			margin-top: 15%;
+		}
+
+
+		.navigation,
+		.footer
+		{
+			display: none;
+		}
+	}
+}
+
+@media only screen and (max-width:960px) 
+{
+	.mobile-menu
+	{
+		display: block;
+		float: right;
+
+		.block-content a
+		{
+			text-decoration: none;
+			text-transform: uppercase;
+			color: $blue-dark;
+			font-weight: bold;
+		}
+	}
+
+	.image-left .image,
+	.image-right .image
+	{
+		float: none;
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+	}
+
+	.block-views-feature-images-block-thumb
+	{
+		display: none;
+	}
+
+	.navigation
+	{
+		height: 100px;
+		overflow: visible;
+	    z-index: 99;
+	}
+
+	.navigation-logo
+	{
+		width: 100px;
+		line-height: 100px;
+		height: 100px;
+
+		img
+		{
+			width: 100%;
+		}
+	}
+
+	.region-navigation
+	{
+		width: 60%;
+		padding-top: 47px;
+	}
+
+	.block-system-main-menu
+	{
+		display: none;
+	    position: absolute;
+	    width: 100%;
+	    left: 0;
+	    top: 100px;
+	    background: white;
+	    border-top: 1px solid $blue-dark;
+
+		li
+		{
+			display: block;
+		}
+
+		a
+		{
+			height: auto;
+			line-height: inherit;
+			padding: 20px 10px;
+			margin: 0 auto;
+			width: auto;
+			border-bottom: 1px solid $blue-dark;
+
+			&:hover:before
+			{
+				display: none;
+			}
+
+			&:hover
+			{
+				color: $blue-dark;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:767px) 
+{	
+	.block-homepage-design>div:before,
+	.read-more-block>div:before
+	{
+		display: none;
+	}
+
+	.block-homepage-design>div
+	{
+		float: none;
+	}
+
+	.block-homepage-design>div:after
+	{
+		content: "";
+		background-image: url(../img/details-image-1.jpg);
+	}
+
+	.block-homepage-build-quality>div:after
+	{	
+		content: "";
+	    background-image: url(../img/waterproofing-1.jpg);
+	}
+
+	.read-more-block>div:after
+	{	
+		content: "";
+	    position: relative;
+    	bottom: 0;
+	    width: 80%;
+        margin-bottom: -109px;
+	    display: block;
+        float: left;
+	    width: 50%;
+	    padding-bottom: 62.12%;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-size: cover;
+	    border-radius: 5px;
+	    box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+	    margin-right: 0px;
+	}
+
+	.read-more-block>div:after
+	{
+		float: none;
+		width: auto;
+	}
+
+	.block-homepage-design
+	{
+		float: none;
+	}
+
+	.read-more-block
+	{
+		width: 100%;
+	    margin-bottom: 130px;
+
+		.block-content
+		{
+			padding-bottom: 0px;
+		}
+	}
+
+	.read-more-block .read-more
+	{
+		position: relative;
+		bottom: auto;
+		width: 200px;
+		margin: 20px auto;
+	}
+
+	.view-testimonials
+	{	
+		padding: 50px 0px;
+
+		img
+		{	
+			float: none;
+			margin: 0 auto;
+		}
+	}
+
+	.block-block-16 .block-content div
+	{
+	
+	    max-width: 300px;
+    	height: 220px;
+	    margin: 20px 0px;
+
+		img
+		{
+			width: 220px;
+			height: auto;
+		}
+	}
+}
+
+@media only screen and (max-width:580px) 
+{	
+	h1
+	{
+		font-size: 2.5em;
+	}
+
+	.page-node-1 .region-header
+	{
+		height: 300px;
+
+		p
+		{
+			margin-bottom: 0px;
+		}
+	}
+
+	.page-node-1 .region-header,
+	.page-node-1 .blocks
+	{
+		float: none;
+		width: 100%;
+	}
+
+	.block-lead-capture
+	{	
+		padding: 60px 10px;
+
+		.form-item,
+		.form-actions
+		{	
+			width: auto;
+			display: block;
+			margin: 10px
+		}
+	}
+
+	.block-menu-menu-footer-menu
+	{
+		display: none;
+	}
+
+	.block-menu-menu-footer-social
+	{	
+		float: none;
+		margin-right: 0px;
+	 	text-align: center;
+
+	 	.home a
+	 	{
+		 	margin: 0 auto;
+	 	}
+	}
+
+	.stay-in-touch
+	{
+	    width: 100%;
+	    margin: 20px auto;
+	    text-align: center;
+
+	    input[type=text]
+	    {
+	    	width: 190px;
+	    }
+	}
+
+	.footer-contact
+	{	
+		float: none;
+	    clear: left;
+	    margin: 10px auto;
+	    width: 200px;
+	}
+
+	.copyright,
+	.site-by-cci
+	{
+		float: none;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+
+	.footer-bottom
+	{
+	    margin-top: 10px;
+	}
+
+}
