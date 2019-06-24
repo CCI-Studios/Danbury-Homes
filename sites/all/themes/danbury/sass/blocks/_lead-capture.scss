@@ -94,6 +94,7 @@ body.page-node-18
         font-weight: 600;
         text-shadow: none;
         cursor: pointer;
+        width: 100%;
     }
     label
     {
@@ -239,6 +240,12 @@ body.page-node-18
             position: relative;
             bottom: auto;
             left: auto;
+        }
+        .form-actions
+        {
+            width: auto;
+            display: block;
+            margin: 0;
         }
     }
 
